@@ -44,6 +44,12 @@ header{
   }
 }
 
+@media (min-width: 992px) {
+
+  .blackhole{
+    height: 500vh;
+  }
+
 /*.words{
   background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512888305/word2-01_fxfbmx.png");
   width: 100vw;
@@ -83,11 +89,6 @@ header{
   font-size: 10px;
 }
 
-@media (min-width: 992px) {
-
-  .blackhole{
-    height: 450vh;
-  }
   /*.con2{
     padding-top: 150px;
   }

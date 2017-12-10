@@ -1,0 +1,53 @@
+@charset "UTF-8";
+html, body {
+  margin: 0;
+  font-family: "微軟正黑體";
+  height: 100%;
+  background-color: #000009;
+}
+
+#header {
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  position: absolute;
+}
+
+.parallax_container {
+  margin-top: 15vh;
+  width: 100vw;
+  height: 320vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.parallax {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512470322/1-01_j4ojdw.png");
+  z-index: 1;
+}
+
+.layer2 {
+  background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512474480/2-1-01_agm35w.png");
+  z-index: 2;
+}
+
+.layer3 {
+  background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512842647/4-2-01_bbexvh.png");
+  z-index: 3;
+}
+
+.layer4 {
+  background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512711114/5-1-01_trlpec.png");
+  z-index: 4;
+}

@@ -40,6 +40,8 @@ header{
     font-size: 60px;
   }
   .blackhole{
+
+    height: 450vh;
     background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512900046/all2-01_ip20df.png");
   }
 }

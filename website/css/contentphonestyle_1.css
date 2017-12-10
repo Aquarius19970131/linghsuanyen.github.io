@@ -25,7 +25,7 @@ header{
   background-color: black;
   background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512922957/wordddd-01_jji78n.png");
   width: 100vw;
-  height: 350vh;
+  height: 400vh;
   overflow: hidden;
   position: relative;
   right: 0;
@@ -53,7 +53,7 @@ header{
   }
 
   .blackhole{
-    height: 400vh;
+    height: 450vh;
   }
 
 @media (min-width: 1200px) {

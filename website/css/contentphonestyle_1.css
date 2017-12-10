@@ -37,6 +37,15 @@ header{
 
 }
 
+
+
+#footer {
+  background-color: black;
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+  }
+
 @media (min-width: 767px) and (min-width: 991px){
   .toptext {
     font-size: 72px;
@@ -49,6 +58,17 @@ header{
     height: 400vh;
   }
 
+@media (min-width: 1200px) {
+  .toptext {
+    font-size: 72px;
+  }
+  .blackhole{
+    background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512896981/all-01_nkao7j.png");
+  }
+
+  .blackhole{
+    height: 500vh;
+  }
 
 /*.words{
   background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512888305/word2-01_fxfbmx.png");
@@ -82,24 +102,7 @@ header{
   text-align: right;
 }*/
 
-#footer {
-  background-color: black;
-  text-align: center;
-  color: #fff;
-  font-size: 10px;
-}
 
-@media (min-width: 1200px) {
-  .toptext {
-    font-size: 72px;
-  }
-  .blackhole{
-    background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512896981/all-01_nkao7j.png");
-  }
-
-  .blackhole{
-    height: 500vh;
-  }
   /*.con2{
     padding-top: 150px;
   }

@@ -35,6 +35,14 @@ header{
   background-position: center;
   background-size: cover;
 }
+
+#footer {
+  background-color: black;
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+}
+
 @media (max-width: 767px){
   .toptext {
     font-size: 60px;
@@ -84,12 +92,7 @@ header{
   text-align: right;
 }*/
 
-#footer {
-  background-color: black;
-  text-align: center;
-  color: #fff;
-  font-size: 10px;
-}
+
 
   /*.con2{
     padding-top: 150px;

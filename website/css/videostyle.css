@@ -7,6 +7,10 @@ html, body {
   font-family: "微軟正黑體";
 }
 
+header{
+  font-family: "微軟正黑體";
+}
+
 .toptext {
   text-align: center;
   background-color: black;
@@ -117,11 +121,13 @@ button a:hover{
     font-size: 26px;
     font-weight: bold;
     margin: 0;
+    font-family: "微軟正黑體";
+
 }
 .box .post{
     display: block;
     font-size: 16px;
-    font-style: italic;
+    font-family: "微軟正黑體";
     margin-bottom: 10px;
 }
 .box .icon{

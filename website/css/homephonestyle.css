@@ -11,6 +11,8 @@ html, body {
   z-index: 10;
   top: 0;
   position: absolute;
+  font-family: "微軟正黑體";
+
 }
 
 .parallax_container {

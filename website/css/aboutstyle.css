@@ -17,6 +17,10 @@ body {
   background-color: black;
 }
 
+header{
+  font-family: "微軟正黑體";
+}
+
 a {
   color: #acb7c0;
   text-decoration: none;

@@ -60,6 +60,12 @@ header{
     height: 500vh;
   }
 
+@media (min-width: 1200px) {
+
+    .blackhole{
+      height: 550vh;
+    }
+
 /*.words{
   background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512888305/word2-01_fxfbmx.png");
   width: 100vw;

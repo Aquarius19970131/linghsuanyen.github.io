@@ -26,8 +26,7 @@ header{
   background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512923963/alllllll-01_wgu3cy.png");
   width: 100vw;
   height: 350vh;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  overflow: hidden;
   position: relative;
   right: 0;
   left: 0;

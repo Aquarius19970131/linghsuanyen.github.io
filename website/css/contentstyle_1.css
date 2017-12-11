@@ -23,7 +23,7 @@ header{
 
 .blackhole{
   background-color: black;
-  background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512923963/alllllll-01_wgu3cy.png");
+  background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512922957/wordddd-01_jji78n.png");
   width: 100vw;
   height: 300vh;
   overflow: hidden;
@@ -46,12 +46,14 @@ header{
 
   .blackhole{
     height: 420vh;
+    background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512923963/alllllll-01_wgu3cy.png");
   }
 
 @media (min-width: 1200px) {
 
     .blackhole{
       height: 480vh;
+      background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512923963/alllllll-01_wgu3cy.png");
     }
 
 @media (max-width: 767px){

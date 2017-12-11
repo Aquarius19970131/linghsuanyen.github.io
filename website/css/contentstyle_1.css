@@ -25,7 +25,7 @@ header{
   background-color: black;
   background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512923963/alllllll-01_wgu3cy.png");
   width: 100vw;
-  height: 350vh;
+  height: 300vh;
   overflow: hidden;
   position: relative;
   right: 0;
@@ -42,28 +42,30 @@ header{
   font-size: 10px;
 }
 
+@media (min-width: 992px) {
+
+  .blackhole{
+    height: 420vh;
+  }
+
+@media (min-width: 1200px) {
+
+    .blackhole{
+      height: 480vh;
+    }
+
 @media (max-width: 767px){
   .toptext {
     font-size: 60px;
   }
   .blackhole{
 
-    height: 500vh;
+    height: 400vh;
     background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512922957/wordddd-01_jji78n.png");
   }
 }
 
-@media (min-width: 992px) {
 
-  .blackhole{
-    height: 550vh;
-  }
-
-@media (min-width: 1200px) {
-
-    .blackhole{
-      height: 600vh;
-    }
 
 /*.words{
   background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512888305/word2-01_fxfbmx.png");

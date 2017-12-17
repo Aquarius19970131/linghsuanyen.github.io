@@ -6,7 +6,7 @@ html, body {
   background-color: #000009;
 }
 
-.se-pre-con {
+/*.se-pre-con {
 	position: fixed;
 	left: 0px;
 	top: 0px;
@@ -14,7 +14,7 @@ html, body {
 	height: 100%;
 	z-index: 9999;
 	background: url(../img/Preloader_1.gif) center no-repeat #010101;
-}
+}*/
 
 #header {
   width: 100%;

@@ -1,0 +1,55 @@
+.tile {
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  display: inline-block;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+  box-shadow: 5px 5px 30px 0px rgba(100, 100, 100, 0.44);
+  overflow: hidden;
+  color: white;
+}
+.tile img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: all 0.4s ease-out;
+}
+.tile .text {
+  z-index: 2;
+  margin: 10px;
+
+ }
+.tile h1 {
+  font-size: 32px;
+  font-weight: 300;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.tile h2 {
+   font-weight: 100;
+
+   transform: translateX(200px); }
+.tile p {
+  font-weight: 300;
+
+  transform: translateX(-200px);
+  transition-delay: 0.2s;
+}
+.animate-text {
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+.tile:hover {
+  box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.64);
+  transform: scale(1.05);
+}
+.tile:hover img {
+   opacity: 0.2;
+ }
+.tile:hover .animate-text {
+   transform: translateX(0);
+   opacity: 1;
+ }

@@ -1,0 +1,61 @@
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext);
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}*/
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+html, body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "微軟正黑體";
+}
+
+body.demo-2 {
+	background: black;
+}
+
+header{
+  font-family: "微軟正黑體";
+}
+
+.toptext {
+  text-align: center;
+  background-color: black;
+  padding-top: 1em;
+  font-size: 60px;
+}
+
+.toptext .blackhole {
+  color: #fff;
+}
+
+#page_wrapper{
+	overflow: hidden;
+}
+
+
+section {
+	padding: 5em;
+	text-align: center;
+	font-size: 1em;
+  margin-bottom: 2em;
+}
+
+#footer {
+  background-color: black;
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+}

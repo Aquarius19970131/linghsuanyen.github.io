@@ -47,6 +47,59 @@ html, body {
 }
 
 
+.loading-bar-holder {
+  width: 15%;
+  height: 15px;
+  border-radius: 15px;
+  border: 1px solid #d2d2d2;
+  background-color: #FFF;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+
+}
+.loading-bar-holder .loading-bar {
+  position: relative;
+  width: 5%;
+  height: 100%;
+  background-color: #f54b4b;
+  animation: load 4s infinite;
+  border-radius: 15px;
+}
+.loading-bar-holder .loading-bar .loading-bar-shiny {
+  background-color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0;
+  right: 0;
+  opacity: 0.3;
+  animation: shine 1.175s infinite;
+}
+@keyframes load {
+  0% {
+    width: 5%;
+  }
+  100% {
+    width: 100%;
+    background-color: #fdc02f;
+  }
+}
+@keyframes shine {
+  0% {
+    width: 5%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
+
+
+
 /*.se-pre-con {
 	position: fixed;
 	left: 0px;

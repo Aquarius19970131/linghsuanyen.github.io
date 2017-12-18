@@ -12,8 +12,17 @@
 <body class="homepage">
   <div class="wrapper-loading">
     <div class="content-loading">
-      <div class="loading"><img src="img/Preloader_1.gif" alt=""></div>
+
+      <div class="loading"><img src="img/Preloader_1.gif" width="150px"></div>
+
+      <div class="loading-bar-holder">
+      <div class="loading-bar">
+      <div class="loading-bar-shiny"></div>
+      </div>
+      </div>
+
     </div>
+
   </div>
 <!-- <div class="se-pre-con"></div> -->
   <div id="wrapper">
@@ -55,11 +64,31 @@
   <script type="text/javascript" src="js/homejs.js"></script>
   <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script> -->
+  <script src-"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.js"> </script>
   <script type="text/javascript">
     setTimeout(function(){
       $(".wrapper-loading").hide();
     },4000)
-  </script>
+
+
+    $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+            if ($(this).html() < 10) {
+               $(this).html('0' + Math.ceil(now));
+            }
+            if ($(this).html() == 100) {
+               $(".init").text("done");
+            }
+        }
+    });
+});
+
 
 
   </script>

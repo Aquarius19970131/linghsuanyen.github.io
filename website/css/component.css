@@ -159,6 +159,7 @@ body {
 	font-size: 1em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+	font-family: "微軟正黑體";
 }
 
 .grid figure figcaption::before,
@@ -222,10 +223,11 @@ figure.effect-julia img {
 
 figure.effect-julia figcaption {
 	text-align: center;
+	font-family: "微軟正黑體";
 }
 
 figure.effect-julia h2 {
-
+	font-family: "微軟正黑體";
 	padding: 0.5em 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;

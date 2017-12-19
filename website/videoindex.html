@@ -9,7 +9,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"/>
   </head>
   <body class="videopage">
-    <div class="se-pre-con"></div>
+    <div class="wrapper-loading">
+      <div class="content-loading">
+
+        <div class="loading"><img src="img/Preloader_1.gif" width="150px"></div>
+
+        <div class="loading-bar-holder">
+        <div class="loading-bar">
+        <div class="loading-bar-shiny"></div>
+        </div>
+        </div>
+
+      </div>
+
+    </div>
 
     <div id="page_wrapper">
       <header>
@@ -224,10 +237,31 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <script type="text/javascript">
-    $(window).load(function() {
-    // Animate loader off screen
-    	$(".se-pre-con").hide(1000);
-    });
+      setTimeout(function(){
+        $(".wrapper-loading").hide();
+      },4000)
+
+
+      $('.count').each(function () {
+      $(this).prop('Counter',0).animate({
+          Counter: $(this).text()
+      }, {
+          duration: 4000,
+          easing: 'swing',
+          step: function (now) {
+              $(this).text(Math.ceil(now));
+              if ($(this).html() < 10) {
+                 $(this).html('0' + Math.ceil(now));
+              }
+              if ($(this).html() == 100) {
+                 $(".init").text("done");
+              }
+          }
+      });
+  });
+
+
+
     </script>
   </body>
   <div id="footer">Copyright &copy; NCYU E-Learning

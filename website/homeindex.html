@@ -64,18 +64,17 @@
   <script type="text/javascript" src="js/homejs.js"></script>
   <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script> -->
-  <script src-"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.js"> </script>
   <script type="text/javascript">
     setTimeout(function(){
       $(".wrapper-loading").hide();
-    },4000)
+    },8000)
 
 
     $('.count').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
     }, {
-        duration: 4000,
+        duration: 8000,
         easing: 'swing',
         step: function (now) {
             $(this).text(Math.ceil(now));

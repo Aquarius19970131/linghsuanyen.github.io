@@ -159,6 +159,9 @@ h1, h2, h3 {
   #aboutus{
     padding: 20px;
   }
+  .loading-bar-holder{
+    width: 30%;
+  }
 }
 
 /* --------------------------------

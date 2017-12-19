@@ -97,6 +97,13 @@ html, body {
   }
 }
 
+@media (max-width: 575px){
+  .loading-bar-holder{
+    width: 30%;
+  }
+}
+
+
 
 
 /*.se-pre-con {

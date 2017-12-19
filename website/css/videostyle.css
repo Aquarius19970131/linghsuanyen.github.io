@@ -202,6 +202,7 @@ button a:hover{
     opacity: 1;
     z-index: 2;
     transition: all 0.3s ease 0s;
+    font-family: "微軟正黑體";
 }
 .box:hover .box-content{
     top: 6px;

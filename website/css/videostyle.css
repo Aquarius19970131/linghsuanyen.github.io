@@ -255,6 +255,12 @@ button a:hover{
     background: #000;
     color: #fff;
 }
+
+.caption{
+  font-family: "微軟正黑體";
+}
+
+
 @media only screen and (max-width:990px){
     .box{ margin-bottom: 30px; }
 }

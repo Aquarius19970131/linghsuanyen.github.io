@@ -1,0 +1,122 @@
+@charset "UTF-8";
+html, body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "微軟正黑體";
+}
+
+
+
+
+.blackhole{
+  background-color: black;
+  background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512922957/wordddd-01_jji78n.png");
+  width: 100vw;
+  height: 220vh;
+  overflow: hidden;
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+#footer {
+  background-color: black;
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+}
+
+@media (min-width: 992px) {
+
+  .blackhole{
+    height: 400vh;
+    margin-top: 100px;
+    background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512923963/alllllll-01_wgu3cy.png");
+  }
+
+@media (min-width: 1200px) {
+
+    .blackhole{
+  height: 450vh;
+  margin-top: 100px;
+      background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512923963/alllllll-01_wgu3cy.png");
+    }
+
+@media (max-width: 767px){
+
+  .blackhole{
+    margin-top: 100px;
+    height: 450vh;
+    background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512922957/wordddd-01_jji78n.png");
+  }
+}
+
+
+
+/*.words{
+  background-image: url("http://res.cloudinary.com/linghsuan/image/upload/v1512888305/word2-01_fxfbmx.png");
+  width: 100vw;
+  height: 500vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: absolute;
+  right: 0;
+  left: 0;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}*/
+
+
+
+/*.container_pic1{
+  padding-top: 100px;
+  text-align: right;
+}
+
+.container_pic2{
+  padding-top: 300px;
+  text-align: left;
+}
+
+.container_pic3{
+
+  text-align: right;
+}*/
+
+
+
+  /*.con2{
+    padding-top: 150px;
+  }
+  .con3{
+    padding-top: 70px;
+  }
+  .container_pic1{
+    padding-top: 100px;
+    text-align: center;
+  }
+  .container_pic2{
+    padding-top: 500px;
+    text-align: center;
+  }
+  .container_pic3{
+    padding-top: 400px;
+    text-align: left;
+ }
+  .container_pic4{
+    padding-top: 120px;
+    padding-left: 20px;
+    text-align: left;
+  }
+  .container_pic5{
+    padding-right: 10px;
+    text-align: right;*/
+
+  }

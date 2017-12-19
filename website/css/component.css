@@ -337,7 +337,7 @@ figure.effect-julia:hover p {
 }
 
 figure.effect-julia:hover h2 {
-	
+
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
@@ -641,4 +641,8 @@ p.dummy-text:nth-child(3) {
 		height: 212px;
 	}
 
+}
+
+.botext{
+	text-align: center;
 }

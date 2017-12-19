@@ -638,3 +638,7 @@ p.dummy-text:nth-child(3) {
 	}
 
 }
+
+.botext{
+	text-align: center;
+}
